@@ -1,2 +1,2 @@
 # CursoVideoHTML5
- Repositório destinado ao curso de HTML5
+ Primeiro repositório no GitHub destinado ao curso de HTML5
