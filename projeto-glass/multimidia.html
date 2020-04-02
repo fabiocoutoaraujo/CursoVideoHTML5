@@ -1,14 +1,40 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <script src="_javascript/funcoes.js"></script>
+</head>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img id="icone" src="_imagens/multimidia.png" />
+
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('home')" onmouseout="mudaFoto('multimidia')"><a href="index.html">Home</a>
+                    </li>
+                    <li onmouseover="mudaFoto('especificacoes')" onmouseout="mudaFoto('multimidia')"><a
+                            href="specs.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('fotos')" onmouseout="mudaFoto('multimidia')"><a href="fotos.html">Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('multimidia')" onmouseout="mudaFoto('multimidia')"><a
+                            href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('contato')" onmouseout="mudaFoto('multimidia')"><a
+                            href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
 
 Glass > Multimídia
 Sons e Vídeos
@@ -21,5 +47,11 @@ Atualizado em 01/Maio/2013
 [AQUI ENTRA UM VÍDEO]
 [AQUI ENTRA UM ÁUDIO]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+            <footer id="rodape">
+                <p>Copyright &copy; 2020 - by Fábio Couto Araujo <br />
+                    <a href="https://www.facebook.com/couto7" target="_blank">Facebook</a> | <a
+                        href="https://www.instagram.com/facouto/" target="_blank">Instagram</a></p>
+            </footer>
+        </div>
+    </body>
+</html>
