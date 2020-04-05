@@ -246,3 +246,11 @@ footer#rodape p {
 footer#rodape a {
     color: #000000;
 }
+
+video#filme01 {
+    width: 100%;
+}
+
+video#filme02 {
+    width: 100%;
+}
